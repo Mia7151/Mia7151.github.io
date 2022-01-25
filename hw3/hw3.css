@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    width: 1239px;   
+  }
+       
+.p1{
+    color:rgb(170, 149, 92);
+    font-family: Sans-Serif;
+    text-indent: 100px;
+    display: inline-block;
+
+}
+.a1 {
+    font-family: Sans-Serif;
+    font-size: 14px;
+    text-decoration:none;
+    color:black;
+    padding: 20px;
+    float:right;
+    text-align:right; 
+}
+.a1:hover { color: rgb(170, 149, 92); }
+
+.bg1{        
+    background-image: url(./image3.png);
+    /*background-position: top;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+            
+}
+        
+.bg2{        
+    background-image: url(./image2.png);
+    /*background-position: bottom;*/
+    min-height: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;              
+}
+
+.topnav{
+    background-color: rgb(255, 255, 255); 
+    width: 1239px; 
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+.p2{
+    font-family: Garamond;
+    letter-spacing: 15px;;
+    font-size: 60px;
+    padding:360px;
+    color:#faf9f9;
+    text-align:center;
+    z-index:1;
+}
+
+.bg3white{
+    background-color: rgb(255, 255, 255);
+    height:600px;
+    margin-top: 300px;
+}
+
+.wrapper1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0px;
+}
+
+.img1{
+    z-index:1;
+    height: 400px;
+    width: 550px;
+    
+}
+.img2{
+    z-index:1;
+    height: 300px;
+    width: 200px;
+}
+
+.flower-img{
+    background-image: url("./flower.png");
+    height: 400px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.p3 {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+
+.button{
+    font-size: 20px;
+    background-color:transparent;
+    color:white;
+    text-align: center;
+    padding: 8px 30px;
+    border: 1px solid white;
+}
+
+.colon{
+    text-align: center;
+    font-family: 'Elephant';
+    color:black;
+    font-size: 100px;
+    margin-top: 0px;
+}
+
+.p4 {
+    margin-top: -120px;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+.p5 {
+    z-index:3;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color:#ac8f11;
+    font-family: Sans-Serif;
+
+}
+
+.wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    grid-column-gap: 50px;
+}
+
+.arrow1{
+    z-index:-1;
+    content: ' \2190';
+    color:#ac8f11;
+    font-size: 30px;
+    float:left
+}
+
+.arrow2{
+    z-index:-1;
+    content: ' \2192';
+    color:#ac8f11;
+    font-size: 30px;
+    float:right
+}
+
+.bg4white{
+    background-color: transparent;
+    height:500px;
+    margin-top: 0px;
+    
+}
+.upperlayer{    
+    height:500px;
+    border:solid 40px rgb(252, 255, 255) ;
+      
+}
+.flower-img1{
+    background-image: url("./flower2.png");
+    height: 350px;
+    width: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 800px;
+    margin-top: 70px;
+    padding-top: 10px;
+}
+
+
+.lastblock{    
+    height:200px;
+    border:solid 40px rgb(252, 255, 255) ;
+    margin-right: 0px;
+    background-color:rgb(170, 149, 92); 
+}
+
+.p6{
+    z-index: 1;
+    font-family: Sans-Serif;
+    color:white;
+    display: inline-block; 
+    font-size: 15px;
+
+}
+
+.transbg{
+    z-index: 1;
+    background-color:white;
+    height: 100px;
+    width: 300px;
+    margin-top:20px;
+    margin-left:20px ;
+    opacity: 0.1;
+
+}
+
+.block1{
+    color: white;
+    margin-left: 60px;
+    text-align: left;
+    margin-top: 70px;
+    border-right: 2px solid white;
+    display: inline-block;  
+    padding: 0px 0px 0px 10px; 
+    
+}
+
+.block2{
+    color: white;
+    margin-left: 5px;
+    text-align: left;
+    margin-top: 70px;
+    border-right: 2px solid white;
+    display: inline-block;  
+    padding: 0px 0px 0px 10px; 
+    
+}
+.block3{
+    color: white;
+    margin-left: 2px;
+    text-align: left;
+    margin-top: 70px;
+    display: inline-block;  
+    padding: 0px 0px 0px 10px; 
+    
+}
+.button1{
+    background-color:transparent;
+    color:white;
+    font-size: 20px;
+    padding: 3px 12px;
+    border: 1px solid white;
+    white-space: nowrap;
+    margin-left: 80px;
+}
+
+.wrapper3{
+    display: grid;
+    grid-template-columns: 280px 200px 220px 480px;
+    grid-gap: 5px;
+    
+}
